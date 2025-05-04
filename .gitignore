@@ -45,3 +45,7 @@ zig-out/
 *.tar.gz
 *.tgz
 *.zip
+
+# Tree-sitter-bsl build and scripts (used only for this repo)
+tree-sitter.exe
+build_test.bat

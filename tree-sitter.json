@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "bsl",
+      "camelcase": "BSL",
+      "scope": "source.bsl",
+      "path": ".",
+      "file-types": [
+        "bsl"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ],
+      "injection-regex": "bsl",
+      "class-name": "TreeSitterBsl"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "1C:Enterprise language (BSL) grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Maxim Nikolaev",
+        "email": "max.nikolaev.dev@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/MaximNikolaev/tree-sitter-bsl"
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "node": false,
+    "python": false,
+    "rust": true,
+    "swift": false,
+    "zig": false
+  }
+}
